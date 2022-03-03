@@ -1,0 +1,92 @@
+
+.header{
+    background-color: #2D25A0;
+    color:white;
+    font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+}
+.login{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  
+}
+.half-nev{
+    display: flex;
+    
+}
+.half-nev p{
+    margin: 5px 7px 10px 10px;
+}
+.button{
+   
+    background-color: #E02C6D;
+    padding: 5px;
+   margin: 5px 2px 2px 5px;
+   color:white
+}
+.banner{
+    display: flex;
+}
+.half-banner{
+    font-size: 40px;
+    margin-left: 2em;
+}
+
+
+.half-banner img{
+    width: 556.01px;
+    height: 438px;
+
+}
+
+/*body part that contain all players informations */
+.body{
+    background-color: white;
+}
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 70px 45px 180px 27px;
+}
+
+.player{
+    width:315px;
+    height:474px;
+    border:15px solid white;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 15px 15px 15px 15px;
+    
+    
+
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+/* highlights section */
+.all-highlights{
+    display: flex;
+}
+.highlight img {
+    width:567px;
+    height:427px;
+}
+.highlight{
+    width:466px;
+    height:309px;
+    width: 50%;
+    margin : 100px 69px 182px 217px;
+    
+}
+
+/* footer section */
+.footer{
+    text-align: center;
+}
+.footer img{
+    width:483.87px;
+    height: 110px;
+}
