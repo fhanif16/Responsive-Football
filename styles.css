@@ -134,12 +134,14 @@ font-family: 'Poppins', sans-serif;
     }
     .all-highlights{
         flex-direction: column;
-        width: 100%;
-        column-gap: 5px;
+        width:100%;
+        height: 100%;
+        
     }
     .footer{
         flex-direction: column;
         width: 100%;
+        height:100%
       
        
     }
